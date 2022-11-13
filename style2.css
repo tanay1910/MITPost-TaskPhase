@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-image: url("./img/bg.jpg") ;
+
+    
+}
+
+header{
+    display: flex;
+    padding: 2px;
+    width: 80%;
+    margin: auto;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    animation: drop 1.5s ease;
+   
+
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    animation: drop 1.5s ease;
+
+
+}
+.nav-link{
+    font-: white;
+    animation: drop 1.5s ease;
+
+
+}
+
+.logo-container,.nav-links,.cart{
+    display: flex;
+    animation: drop 1.5s ease;
+
+}
+
+
+.logo-container{
+    /*background: lightblue*/;
+    flex: 1;
+    justify-content: baseline   ;
+
+}
+
+nav{
+    background-color: gray;
+    flex:2;
+}
+
+.cart{
+    flex:1;
+    justify-content: flex-end;
+    animation: drop 1.5s ease;
+
+}
+
+.logo{
+    font-weight: 400;
+    margin: 5px;
+    animation: drop 1.5s ease;
+
+}
+
+.buttons{
+    border: 3px solid white;
+    padding: 5px;
+    width: 30vh;
+    height: 10vh;   
+    font-size: 3vh;
+    background: linear-gradient(to right, red, purple);
+    color: white;
+    animation: drop 1.5s ease;
+
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 50px ;
+    animation: drop 1.5s ease;
+
+    
+}
+
+.second{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    animation: drop 1.5s ease;
+
+}
+
+.second image{
+    transform: translateX(45%);
+    animation: drop 1.5s ease;
+
+}
+
+.third{
+    display: flex;
+    animation: drop 1.5s ease;
+
+
+}
+
+@keyframes  drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px)
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
